@@ -1,0 +1,77 @@
+
+***************** Please Use "localhost:8889" in host name becasue this is  the port where mysql is running. I could not figure out a way to change this to just local host and moreover I did not
+want to mess up my mamp settings in the last minute. If you dont use "localhost:8889" in host name most probably the database wont be connected. So please consider this.********************** 
+
+
+***Please Ignore the last two arist beacuse they dont have any artwork inside their profile. I just created those two profile to see
+if my createAccount.php works properly ***
+
+***Moreover, I had to create the database name with lowercase only becuase the system did not allow me to write it in the other way***
+
+**Purpose of the site:
+
+The main idea of the website is to unite artists and to showcase their work among general public. This website contains the information about various artists and their work. There is a separate page
+containing the collections of the artworks. One can easily be a part of this website by creating an account in the sign In page.
+
+
+** Description of the index.php:
+
+This page is the homepage of our website where an user can get an overall idea of the whole website. I have taken the (index.html) tamplate from the bootstrap as instructed and then I have done the necessary changes.
+Here are the lists of mentionable changes that I have done:
+
+-> I have changed the title to Art by you which was in the <title> tag
+-> I have changed the titles along the navigation bar and deleted the unnecessary nav titles. I have put the links to connect all the pages that are in the website.
+-> Removed sections to make the web page look like the picutre given in the assignment document. 
+
+** Description of the about.php:
+This page contains detailed description of the website. For this page I have used the about.html of the bootstrap.The changes are:
+
+-> I have changed the title to Art by you which was in the <title> tag.
+-> I have changed the titles along the navigation bar and deleted the unnecessary nav titles. I have put the links to connect all the pages that are in the website.
+-> I updated the top-text as mentioned
+-> Removed the blue button and removed everything under our story
+
+** Description of the artists.php:
+This page contains all the detailed description of the Artists and their work. For this I have used the artist.html as template.The changes are:
+
+-> I have changed the title to Art by you which was in the <title> tag
+-> I have changed the titles along the navigation bar and deleted the unnecessary nav titles. I have put the links to connect all the pages that are in the website.
+-> Only kept the row of round images and updated the information under each section.
+-> Chaned the title to the row of images as mentioned
+
+** Description of the collections_T.php:
+This page contains all the art done by the artist of the website. For this I have used the index.html as template.The changes are:
+
+-> I have changed the title to Art by you which was in the <title> tag
+-> I have changed the titles along the navigation bar and deleted the unnecessary nav titles. I have put the links to connect all the pages that are in the website.
+-> Included 6 cards and updated the title at the top of the page.
+-> Removed the round images and details like name of the blogger, date and time.
+
+** Description of Signin.php:
+This is a sign in page for the users of the website. I have used the contact.index as a template for this page. The changes are:
+
+-> I have changed the title to Art by you which was in the <title> tag
+-> I have changed the titles along the navigation bar and deleted the unnecessary nav titles. I have put the links to connect all the pages that are in the website.
+-> Created a username and password sign in form for the user
+-> Remove the envelop icon and the line underneath
+-> Removed the section below the form
+
+**
+
+** Description of the collection_T.php, aboutArtist.php, post.php, themes.php, artist.php all  the pages.
+
+-> Changes the pages in the same way as before and according to the requirement.
+
+**** I am using MAMP for the .php files
+
+I have used the bootstrap as template and I am providing the citation for it:
+
+“Modern business - full website template for bootstrap 5,” Full Website Template for Bootstrap 5 - Start Bootstrap. [Online]. Available: https://startbootstrap.com/template/modern-business. [Accessed: 02-Feb-2023]. 
+
+I have used the lorem Ipsum text generator in my code to populate some field of the database and here is the citation:
+“Lorem Ipsum - All the facts - Lipsum generator,” Lipsum.com, 2019. https://www.lipsum.com/
+
+I have used Microsoft powerpoint images for the populating the images of my website and here is the citaion for it:
+
+“Microsoft PowerPoint Slide Presentation Software | Microsoft 365,” www.microsoft.com. https://www.microsoft.com/en-ww/microsoft-365/powerpoint
+
